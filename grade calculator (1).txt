@@ -1,0 +1,19 @@
+math_test = int(input('enter math test marks'))
+science_test = int(input('enter science test marks'))
+reading_test = int(input('enter reading test marks'))
+total_test = math_test + science_test + reading_test
+print('The total of marks', total_test)
+avg_test = total_test/3
+print('The avg_test score', avg_test)
+
+math_homework = int(input('enter math_homework marks'))
+science_homework = int(input('enter science_homework marks'))
+reading_homework = int(input('enter science_homework marks'))
+total_homework = math_homework + science_homework + reading_homework
+print('The total of homework marks', total_homework)
+avg_homework = total_homework/3
+print('The avg_homework score', avg_homework)
+
+partictapate = int(input('enter partictapation marks'))
+
+total_grade = (total_test* .5) + (total_homework * .3) + (partictapation * .2)
